@@ -36,11 +36,15 @@ header {
     justify-content: center;
     background-color: #e4e6ec;
 
-    text-align:center;
     margin: 0px 20px;
     padding: 30px;
     border: 2px solid;
     border-radius: 50px;
+
+    & h1{
+        text-decoration: underline;
+        text-shadow: 0px 0px 1px;
+    }
 
     & button{
         padding: 15px;
