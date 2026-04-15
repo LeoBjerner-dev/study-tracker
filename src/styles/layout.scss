@@ -1,0 +1,60 @@
+@use './variables' as *;
+
+body {
+  height: 100vh;
+  background-color: $bg-color;
+  font-family: monospace;
+  color: $text-secondary;
+
+  & h1, h2, h3, h4 {
+    color: $text-primary;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: $primary-color;
+  margin-bottom: 10vh;
+
+  & img {
+    max-height: 50px;
+    max-width: 100px;
+  }
+}
+
+.mainWelcomePage {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e6ec;
+
+    text-align:center;
+    margin: 0px 20px;
+    padding: 30px;
+    border: 2px solid;
+    border-radius: 50px;
+
+    & button{
+        padding: 15px;
+        border: none;
+        border-radius: 20px;
+        background-color: $primary-color;
+        color: rgb(234, 212, 85);
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-shadow: 2px 2px 2px red;
+
+        &:hover {
+            scale: 1.05;
+            cursor: pointer;
+        }
+    }
+}
