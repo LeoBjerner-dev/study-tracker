@@ -18,9 +18,20 @@ export function renderStudy() {
     const startBtn = document.createElement("button");
     const stopBtn = document.createElement("button");
     const resetBtn = document.createElement("button");
+
+    startBtn.textContent = "Start";
+    stopBtn.textContent = "Stop";
+    resetBtn.textContent = "Restart";
+
      btnContainer?.appendChild(startBtn);
      btnContainer?.appendChild(stopBtn);
      btnContainer?.appendChild(resetBtn);
 
      main?.classList.add("mainStudyPage");
+     btnContainer?.classList.add("btnContainer")
+
+     //statistik block
+     const trendBlock = document.createElement("div");
+     main?.appendChild(trendBlock);
+     trendBlock.classList.add("trendBlock")
 }
