@@ -62,3 +62,34 @@ header {
         }
     }
 }
+
+@media (max-width: 480px) {
+  header {
+    margin-bottom: 5vh;
+
+    & img {
+      max-height: 36px;
+    }
+
+    & h2 {
+      font-size: 1.1rem;
+    }
+  }
+
+  .mainWelcomePage {
+    margin: 0 10px;
+    padding: 20px 16px;
+    border-radius: 24px;
+    gap: 14px;
+
+    & h1 {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+
+    & button {
+      font-size: 1.1rem;
+      padding: 12px 20px;
+    }
+  }
+}

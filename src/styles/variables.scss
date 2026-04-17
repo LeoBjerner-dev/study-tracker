@@ -2,5 +2,14 @@ $primary-color: #5b8def;
 $bg-color: #f4f6fb;
 $secondary-color: #a78bfa;
 
-$text-primary: #1e1e2e; 
+$text-primary: #1e1e2e;
 $text-secondary: #6b7280;
+
+:root {
+  --dark-red: 139, 0, 0;
+  --light-red: 255, 99, 99;
+  --dark-green: 0, 100, 0;
+  --light-green: 99, 255, 99;
+  --dark-blue: 30, 40, 180;
+  --light-blue: 76, 83, 214;
+}
